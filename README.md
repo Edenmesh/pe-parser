@@ -24,17 +24,17 @@ won't crash it or read out of bounds.
 
 With MSVC:
 
-cl pe-parser.c
+<pre> ``` cl PEParser.c ``` </pre>
 
 
 With gcc:
 
-gcc pe-parser.c -o pe-parser
+gcc PEParser.c -o PEParser
 
 
 ## Usage
 
-pe-parser.exe C:\Windows\System32\notepad.exe
+PEParser.exe C:\Windows\System32\notepad.exe
 
 
 Example output:
